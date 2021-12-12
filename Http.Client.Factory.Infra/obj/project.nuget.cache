@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oIw+QQi5JS94s7johObRa/pgB5+7ocFGQiPmq6+gP6A06TvFNvMIIIcid1JqH7n+RQJrvfMnMagSK8bCVnjAOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\Api_Net_6_With_Call_Http_Client_Factory\\Http.Client.Factory.Infra\\Http.Client.Factory.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\bin\Debug\net6.0\Http.Client.Factory.Application.deps.json
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\bin\Debug\net6.0\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\bin\Debug\net6.0\ref\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\bin\Debug\net6.0\Http.Client.Factory.Application.pdb
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.AssemblyInfo.cs
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\ref\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\AndreCanuto1983\Api_Net_6\http_client_factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UhLlrsUov9SnL2g97DZydjY4xvYmSu+XDY4x5VaH69U=",
+  "Source": "Http.Client.Factory.Svc",
+  "BasePath": "_content/Http.Client.Factory.Svc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
