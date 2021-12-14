@@ -1,10 +1,14 @@
-﻿namespace http_client_factory.Configurations
+﻿using Http.Client.Factory.Application.Interfaces;
+using Http.Client.Factory.Infra.Services;
+
+namespace http_client_factory.Configurations
 {
     public class ConfigureDependencyInjection
     {
         public static void Configurations(IServiceCollection services)
         {
-            //services.AddSingleton<INewService, NewService>();
+            services.AddScoped<IHttpClientFactoryDirectlyService, HttpClientFactoryDirectlyService>();
+            services.AddScoped<IHttpClientFactoryNamedClientService, HttpClientFactoryNamedClientService>();
         }
     }
 }

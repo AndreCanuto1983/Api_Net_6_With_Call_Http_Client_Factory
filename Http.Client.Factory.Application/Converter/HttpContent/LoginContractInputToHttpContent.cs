@@ -1,4 +1,4 @@
-﻿using Http.Client.Factory.Application.Domains;
+﻿using Http.Client.Factory.Application.Domains.Requests;
 using System.Text;
 using System.Text.Json;
 

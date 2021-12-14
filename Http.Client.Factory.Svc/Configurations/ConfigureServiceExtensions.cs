@@ -6,7 +6,7 @@
         {
             services.AddControllers()
                     .AddJsonOptions(options =>
-                        options.JsonSerializerOptions.PropertyNameCaseInsensitive = true);
+                        options.JsonSerializerOptions.PropertyNameCaseInsensitive = true);            
         }
     }
 }

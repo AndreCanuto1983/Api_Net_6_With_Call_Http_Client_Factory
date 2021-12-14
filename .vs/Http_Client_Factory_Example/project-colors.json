@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "902d6e44-ecb8-41f4-b471-309785f40470": {
+      "ProjectGuid": "902d6e44-ecb8-41f4-b471-309785f40470",
+      "DisplayName": "Http.Client.Factory.Svc",
+      "ColorIndex": 0
+    },
+    "a48d8f8a-5a7a-413c-b074-ffc4d4944c67": {
+      "ProjectGuid": "a48d8f8a-5a7a-413c-b074-ffc4d4944c67",
+      "DisplayName": "Http.Client.Factory.Svc",
+      "ColorIndex": 1
+    },
+    "c70565be-833a-46da-9a30-5714a6e40446": {
+      "ProjectGuid": "c70565be-833a-46da-9a30-5714a6e40446",
+      "DisplayName": "Http.Client.Factory.Application",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
