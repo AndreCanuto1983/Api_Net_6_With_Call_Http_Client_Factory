@@ -15,7 +15,17 @@
       "ProjectGuid": "c70565be-833a-46da-9a30-5714a6e40446",
       "DisplayName": "Http.Client.Factory.Application",
       "ColorIndex": 2
+    },
+    "3a9dcc4b-6cfa-49a5-814b-a56f4d1ed25b": {
+      "ProjectGuid": "3a9dcc4b-6cfa-49a5-814b-a56f4d1ed25b",
+      "DisplayName": "Http.Client.Factory.Infra",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
