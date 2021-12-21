@@ -44,7 +44,7 @@ namespace Http.Client.Factory.Infra.Services
             {
                 _logger.LogError(ex, "[HttpClientFactoryDirectlyService][GetDirectly]");
 
-                return null;
+                throw;
             }
         }
     }

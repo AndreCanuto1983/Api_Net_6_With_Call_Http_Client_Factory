@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iOCR7CtbTl0OtE0GuYJzHQQClvBV0XQySTgNhQQeRlIuumgbYo3SU3FS9kLiWQ7E+qUIbF6v2yxkhIkgwDoH1w==",
+  "dgSpecHash": "smeEVjyDoMpdoSBQoVaf70uqKa8YdC/RiVH9REWZoVTDjo/Sf3W3/xgV/4FOscSBP85o1beoxe0kgUyjkAWxaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\source\\repos\\Api_Net_6_With_Call_Http_Client_Factory\\Http.Client.Factory.Application\\Http.Client.Factory.Application.csproj",
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\ProjectApiNet6WithRequestsHttpClientFactory\\Http.Client.Factory.Application\\Http.Client.Factory.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

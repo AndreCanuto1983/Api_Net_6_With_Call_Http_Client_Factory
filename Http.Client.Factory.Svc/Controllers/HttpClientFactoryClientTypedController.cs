@@ -10,15 +10,11 @@ namespace http_client_factory.Controllers
     [Route("api/v1/[controller]")]
     public class HttpClientFactoryClientTypedController : ControllerBase
     {
-        private readonly IHttpClientFactoryTypedClientService _identificationService;
-        private readonly ILogger<HttpClientFactoryClientTypedController> _logger;
+        private readonly IHttpClientFactoryTypedClientService _identificationService;        
 
-        public HttpClientFactoryClientTypedController(
-            IHttpClientFactoryTypedClientService identificationService,
-            ILogger<HttpClientFactoryClientTypedController> logger)
+        public HttpClientFactoryClientTypedController(IHttpClientFactoryTypedClientService identificationService)
         {
             _identificationService = identificationService;
-            _logger = logger;
         }
 
         [HttpPost]
@@ -42,8 +38,6 @@ namespace http_client_factory.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation(ex, "[HttpClientFactoryClientTypedController][Identification]");
-
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }

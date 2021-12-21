@@ -8,15 +8,12 @@ namespace Http.Client.Factory.Svc.Controllers
     [Route("api/v1/[controller]")]
     public class HttpClientFactoryNamedClientsController : Controller
     {
-        private readonly IHttpClientFactoryNamedClientService _httpClientFactoryNamedClientService;
-        private readonly ILogger<HttpClientFactoryNamedClientsController> _logger;
+        private readonly IHttpClientFactoryNamedClientService _httpClientFactoryNamedClientService;        
 
         public HttpClientFactoryNamedClientsController(
-            IHttpClientFactoryNamedClientService httpClientFactoryNamedClientService,
-            ILogger<HttpClientFactoryNamedClientsController> logger)
+            IHttpClientFactoryNamedClientService httpClientFactoryNamedClientService)
         {
-            _httpClientFactoryNamedClientService = httpClientFactoryNamedClientService;
-            _logger = logger;
+            _httpClientFactoryNamedClientService = httpClientFactoryNamedClientService;            
         }
 
         [HttpPost]
@@ -36,8 +33,6 @@ namespace Http.Client.Factory.Svc.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation(ex, "[HttpClientFactoryNamedClientsController][NamedClient]");
-
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }

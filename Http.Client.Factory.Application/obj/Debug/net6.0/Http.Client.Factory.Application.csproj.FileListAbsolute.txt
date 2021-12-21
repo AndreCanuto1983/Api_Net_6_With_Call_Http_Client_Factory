@@ -22,3 +22,15 @@ C:\Users\andre\source\repos\Api_Net_6_With_Call_Http_Client_Factory\Http.Client.
 C:\Users\andre\source\repos\Api_Net_6_With_Call_Http_Client_Factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.dll
 C:\Users\andre\source\repos\Api_Net_6_With_Call_Http_Client_Factory\Http.Client.Factory.Application\obj\Debug\net6.0\ref\Http.Client.Factory.Application.dll
 C:\Users\andre\source\repos\Api_Net_6_With_Call_Http_Client_Factory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.pdb
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\bin\Debug\net6.0\Http.Client.Factory.Application.deps.json
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\bin\Debug\net6.0\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\bin\Debug\net6.0\ref\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\bin\Debug\net6.0\Http.Client.Factory.Application.pdb
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.AssemblyInfo.cs
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\ref\Http.Client.Factory.Application.dll
+C:\Users\andre\source\repos\ProjectApiNet6WithRequestsHttpClientFactory\Http.Client.Factory.Application\obj\Debug\net6.0\Http.Client.Factory.Application.pdb

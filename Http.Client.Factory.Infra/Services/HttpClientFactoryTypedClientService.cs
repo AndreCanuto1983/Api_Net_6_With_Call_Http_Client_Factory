@@ -39,7 +39,7 @@ namespace Http.Client.Factory.Infra.Services
             {
                 _logger.LogError(ex, "[IdentificationService][UserApi]");
 
-                return null;
+                throw;
             }
         }
     }

@@ -4,7 +4,7 @@ using System.Net.Http.Headers;
 
 namespace http_client_factory.Configurations
 {
-    public class ConfigureHttpClientFactory
+    public class HttpClientFactory
     {            
         public static void Configurations(WebApplicationBuilder builder)
         {

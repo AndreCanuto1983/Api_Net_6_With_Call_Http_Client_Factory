@@ -2,7 +2,7 @@
 
 namespace http_client_factory.Configurations
 {
-    public class ConfigureServiceExtensions
+    public class ServiceExtension
     {
         public static void Configurations(IServiceCollection services)
         {

@@ -53,8 +53,7 @@ namespace Http.Client.Factory.Infra.Services
             catch (Exception ex)
             {
                 _logger.LogError(ex, "[HttpClientFactoryDirectlyService][GetDirectly]");
-
-                return null;
+                throw;
             }
         }
     }
