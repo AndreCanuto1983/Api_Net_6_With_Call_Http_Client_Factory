@@ -3,7 +3,7 @@ using Http.Client.Factory.Infra.Services;
 
 namespace http_client_factory.Configurations
 {
-    public class DependencyInjection
+    public static class DependencyInjection
     {
         public static void Configurations(IServiceCollection services)
         {

@@ -4,7 +4,7 @@ using System.Net.Http.Headers;
 
 namespace http_client_factory.Configurations
 {
-    public class HttpClientFactory
+    public static class HttpClientFactory
     {            
         public static void Configurations(WebApplicationBuilder builder)
         {
@@ -13,13 +13,13 @@ namespace http_client_factory.Configurations
             /// </summary>  
             builder.Services.AddHttpClient<IHttpClientFactoryTypedClientService, HttpClientFactoryTypedClientService>(client =>
             {
-                client.BaseAddress = new Uri("https://localhost:44310/");
+                client.BaseAddress = new Uri("https://localhost:44310/");                
 
-                //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", builder.Configuration.GetSection("ConfigurationApi").GetSection("AccessToken").Value);                     // --> For add Authentication in header
+                //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", builder.Configuration.GetSection("ConfigurationApi").GetSection("AccessToken").Value);  --> For add Authentication in header
 
-                //client.DefaultRequestHeaders.Add("varParameter", "dataParameter");         // --> For add headers
+                //client.DefaultRequestHeaders.Add("varParameter", "dataParameter");  --> For add headers
 
-            }).SetHandlerLifetime(TimeSpan.FromSeconds(50));                                 // --> Set lifetime in seconds
+            }).SetHandlerLifetime(TimeSpan.FromMilliseconds(double.Parse(builder.Configuration.GetSection("http-client-factory:Timeout").Value)));  // --> Set lifetime in seconds
 
 
             /// <summary>
@@ -28,9 +28,8 @@ namespace http_client_factory.Configurations
             builder.Services.AddHttpClient("NamedClient", client =>
             {
                 client.BaseAddress = new Uri("https://localhost:44310/");
-                client.Timeout = new TimeSpan(0, 0, 50);                                     // --> Set Timeout (hours, minutes, seconds)
+                client.Timeout = TimeSpan.FromMilliseconds(double.Parse(builder.Configuration.GetSection("http-client-factory:Timeout").Value));
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", builder.Configuration.GetSection("ConfigurationApi").GetSection("AccessToken").Value);
-
             });
         }
     }
