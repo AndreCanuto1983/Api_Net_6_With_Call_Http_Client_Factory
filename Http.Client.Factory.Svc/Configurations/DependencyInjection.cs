@@ -5,7 +5,7 @@ namespace http_client_factory.Configurations
 {
     public static class DependencyInjection
     {
-        public static void Configurations(IServiceCollection services)
+        public static void DependencyInjectionSettings(this IServiceCollection services)
         {
             services.AddScoped<IHttpClientFactoryDirectlyService, HttpClientFactoryDirectlyService>();
             services.AddScoped<IHttpClientFactoryNamedClientService, HttpClientFactoryNamedClientService>();

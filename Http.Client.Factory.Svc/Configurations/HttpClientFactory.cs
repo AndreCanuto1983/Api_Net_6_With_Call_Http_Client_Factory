@@ -6,7 +6,7 @@ namespace http_client_factory.Configurations
 {
     public static class HttpClientFactory
     {            
-        public static void Configurations(WebApplicationBuilder builder)
+        public static void HttpClientFactorySettings(this WebApplicationBuilder builder)
         {
             /// <summary>
             /// HttpClientFactory Typed Client Example
