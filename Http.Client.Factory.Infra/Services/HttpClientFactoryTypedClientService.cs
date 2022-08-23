@@ -11,8 +11,10 @@ namespace Http.Client.Factory.Infra.Services
     public class HttpClientFactoryTypedClientService : IHttpClientFactoryTypedClientService
     {
         private readonly HttpClient _client;
-        private readonly ILogger<IHttpClientFactoryTypedClientService> _logger;
-        public HttpClientFactoryTypedClientService(HttpClient client, ILogger<IHttpClientFactoryTypedClientService> logger)
+        private readonly ILogger<HttpClientFactoryTypedClientService> _logger;
+        public HttpClientFactoryTypedClientService(
+            HttpClient client, 
+            ILogger<HttpClientFactoryTypedClientService> logger)
         {
             _client = client;
             _logger = logger;
@@ -37,7 +39,7 @@ namespace Http.Client.Factory.Infra.Services
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "[IdentificationService][UserApi]");
+                _logger.LogError("[HttpClientFactoryTypedClientService][CallLoginApi] => EXCEPTION: {ex.Message}", ex.Message);
 
                 throw;
             }

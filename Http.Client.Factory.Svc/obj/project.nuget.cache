@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SOMhyuC94ZkJ1upjZolfNiZbSWYQWFxWX0LfjZ4MvblacBPREE+aIm6Kfd3djFxEWZznIXmckvD82zG+NKJsNg==",
+  "dgSpecHash": "8mAz8XvwOWInT1yQv47NA9ubCl1kZe2/lkt65ArO4gOt4OkyCIA/bkmqDU/1oTpJ2VY9dhZbWT3Cbeu9YRb9VQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\source\\repos\\ProjectApiNet6WithRequestsHttpClientFactory\\Http.Client.Factory.Svc\\Http.Client.Factory.Svc.csproj",
   "expectedPackageFiles": [

@@ -11,11 +11,11 @@ namespace Http.Client.Factory.Infra.Services
     public class HttpClientFactoryNamedClientService : IHttpClientFactoryNamedClientService
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        private readonly ILogger<IHttpClientFactoryNamedClientService> _logger;        
+        private readonly ILogger<HttpClientFactoryNamedClientService> _logger;        
 
         public HttpClientFactoryNamedClientService(
             IHttpClientFactory httpClientFactory,
-            ILogger<IHttpClientFactoryNamedClientService> logger)
+            ILogger<HttpClientFactoryNamedClientService> logger)
         {
             _httpClientFactory = httpClientFactory;
             _logger = logger;            
@@ -42,7 +42,7 @@ namespace Http.Client.Factory.Infra.Services
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "[HttpClientFactoryDirectlyService][GetDirectly]");
+                _logger.LogError("[HttpClientFactoryNamedClientService][GetNamedClient] => EXCEPTION: {ex.Message}", ex.Message);
 
                 throw;
             }
