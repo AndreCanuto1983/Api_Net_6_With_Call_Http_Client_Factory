@@ -11,7 +11,9 @@ namespace Http.Client.Factory.Infra.Services
     public class HttpClientFactoryNamedClientService : IHttpClientFactoryNamedClientService
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        private readonly ILogger<HttpClientFactoryNamedClientService> _logger;        
+        private readonly ILogger<HttpClientFactoryNamedClientService> _logger;
+
+        private const string USERS_API = "v1/users";
 
         public HttpClientFactoryNamedClientService(
             IHttpClientFactory httpClientFactory,
@@ -27,7 +29,7 @@ namespace Http.Client.Factory.Infra.Services
             {
                 var client = _httpClientFactory.CreateClient("NamedClient");
 
-                var response = await client.GetAsync("v1/users");
+                var response = await client.GetAsync(USERS_API);
 
                 response.EnsureSuccessStatusCode();
 
