@@ -19,9 +19,7 @@ namespace http_client_factory.Configurations
                 //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", builder.Configuration.GetSection("ConfigurationApi").GetSection("AccessToken").Value);  --> For add Authentication in header
 
                 //client.DefaultRequestHeaders.Add("varParameter", "dataParameter");  --> For add headers
-                //client.DefaultRequestHeaders.Add("Content-Type", "application/json");  --> For add headers
                 //client.DefaultRequestHeaders.Add(HeaderNames.Accept, "*/*");  --> For add headers
-                //client.DefaultRequestHeaders.Add(HeaderNames.ContentType, "application/json");  --> For add headers
 
             }).SetHandlerLifetime(TimeSpan.FromMilliseconds(double.Parse(builder.Configuration.GetSection("http-client-factory:Timeout").Value)));  // --> Set lifetime in seconds
 
