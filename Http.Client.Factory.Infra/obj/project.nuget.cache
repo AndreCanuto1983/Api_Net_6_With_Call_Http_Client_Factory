@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PO1GuKeC0q//89P76OShYlIEXHAmVUjqjo7eXQUPVqnBuQE+PdLwEzqwj2BJL/h6wNu/bdH276753B+VQesysw==",
+  "dgSpecHash": "+wgZJmjuk+ZcL7e5onMQWw2kSdLt3x60+gGxwRUvQZeSK0HvG5zFepttaOL7oj6oa3id4f/HkuInYmd/xz1Nkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\source\\repos\\ProjectApiNet6WithRequestsHttpClientFactory\\Http.Client.Factory.Infra\\Http.Client.Factory.Infra.csproj",
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\dotnet6-httpclientfactory\\Http.Client.Factory.Infra\\Http.Client.Factory.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
