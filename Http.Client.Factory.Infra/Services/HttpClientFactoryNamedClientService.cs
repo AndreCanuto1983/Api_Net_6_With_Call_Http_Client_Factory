@@ -13,14 +13,12 @@ namespace Http.Client.Factory.Infra.Services
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<HttpClientFactoryNamedClientService> _logger;
 
-        private const string USERS_API = "v1/users";
-
         public HttpClientFactoryNamedClientService(
             IHttpClientFactory httpClientFactory,
             ILogger<HttpClientFactoryNamedClientService> logger)
         {
             _httpClientFactory = httpClientFactory;
-            _logger = logger;            
+            _logger = logger;
         }
 
         public async Task<IEnumerable<UserContractOutput>> GetNamedClient(CancellationToken cancellationToken)
@@ -29,23 +27,23 @@ namespace Http.Client.Factory.Infra.Services
             {
                 var client = _httpClientFactory.CreateClient("NamedClient");
 
-                var response = await client.GetAsync(USERS_API);
+                var response = await client.GetAsync("v1/users");
 
                 response.EnsureSuccessStatusCode();
 
                 using var responseStream = await response.Content.ReadAsStreamAsync();
 
-                var result = await JsonSerializer.DeserializeAsync<IEnumerable<UserContractOutput>>(responseStream, new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                }, cancellationToken);
+                var result = await JsonSerializer.DeserializeAsync<IEnumerable<UserContractOutput>>(
+                    responseStream, new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    }, cancellationToken);
 
                 return result;
             }
             catch (Exception ex)
             {
                 _logger.LogError("[HttpClientFactoryNamedClientService][GetNamedClient] => EXCEPTION: {ex.Message}", ex.Message);
-
                 throw;
             }
         }

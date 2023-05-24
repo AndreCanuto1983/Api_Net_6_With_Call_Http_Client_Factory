@@ -13,7 +13,7 @@ namespace Http.Client.Factory.Infra.Services
         private readonly HttpClient _client;
         private readonly ILogger<HttpClientFactoryTypedClientService> _logger;
         public HttpClientFactoryTypedClientService(
-            HttpClient client, 
+            HttpClient client,
             ILogger<HttpClientFactoryTypedClientService> logger)
         {
             _client = client;
@@ -30,17 +30,17 @@ namespace Http.Client.Factory.Infra.Services
 
                 using var responseStream = await response.Content.ReadAsStreamAsync();
 
-                var result = await JsonSerializer.DeserializeAsync<LoginContractOutput>(responseStream, new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                }, cancellationToken);
+                var result = await JsonSerializer.DeserializeAsync<LoginContractOutput>(
+                    responseStream, new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    }, cancellationToken);
 
                 return result;
             }
             catch (Exception ex)
             {
                 _logger.LogError("[HttpClientFactoryTypedClientService][CallLoginApi] => EXCEPTION: {ex.Message}", ex.Message);
-
                 throw;
             }
         }

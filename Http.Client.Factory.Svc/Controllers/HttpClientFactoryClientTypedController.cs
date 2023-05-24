@@ -10,11 +10,12 @@ namespace http_client_factory.Controllers
     [Route("api/v1/[controller]")]
     public class HttpClientFactoryClientTypedController : ControllerBase
     {
-        private readonly IHttpClientFactoryTypedClientService _identificationService;        
+        private readonly IHttpClientFactoryTypedClientService _httpClientFactoryTypedClientService;        
 
-        public HttpClientFactoryClientTypedController(IHttpClientFactoryTypedClientService identificationService)
+        public HttpClientFactoryClientTypedController(
+            IHttpClientFactoryTypedClientService identificationService)
         {
-            _identificationService = identificationService;
+            _httpClientFactoryTypedClientService = identificationService;
         }
 
         [HttpPost]
@@ -29,7 +30,8 @@ namespace http_client_factory.Controllers
 
             try
             {
-                var response = await _identificationService.CallLoginApi(loginContractInput.LoginInputToHttpContent(), cancellationToken);
+                var response = await _httpClientFactoryTypedClientService.CallLoginApi(
+                    loginContractInput.LoginInputToHttpContent(), cancellationToken);
 
                 if (response == null)
                     return NotFound();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+wgZJmjuk+ZcL7e5onMQWw2kSdLt3x60+gGxwRUvQZeSK0HvG5zFepttaOL7oj6oa3id4f/HkuInYmd/xz1Nkw==",
+  "dgSpecHash": "Y8Vc7IAto+QGwsa2a8d2wtSg2JsXLfLXvi35ONgsiaSLe9RkVP+bpBH4jRpaRrS5xG3MBq6LL4AOqRmRkXoFGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\source\\repos\\dotnet6-httpclientfactory\\Http.Client.Factory.Infra\\Http.Client.Factory.Infra.csproj",
   "expectedPackageFiles": [
